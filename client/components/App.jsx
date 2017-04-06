@@ -7,11 +7,11 @@ import About from './About'
 import Teacher from './Teacher'
 import Events from './Events'
 import Photos from './Photos'
-import Enrolment from './Enrolment'
+import Songs from './Songs'
+import Login from './Login'
 
 const App = () => {
   return (
-
       <Router>
         <div>
           <ul>
@@ -20,15 +20,16 @@ const App = () => {
             <li><Link to='/teachers'>Teacher</Link></li>
             <li><Link to='/events'>Events</Link></li>
             <li><Link to='/photos'>Photos</Link></li>
-            <li><Link to='/enrolment'>Enrolment</Link></li>
+            <li><Link to='/songs'>Songs</Link></li>
+            <li><Link to='/login'>Login</Link></li>
           </ul>
-
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/teachers' component={Teacher} />
           <Route path='/events' component={Events} />
           <Route path='/photos' component={Photos} />
-          <Route path='/enrolment' component={Enrolment} />
+          <Route path='/songs' component={Songs} />
+          <Route path='/login' component={Login} />
         </div>
       </Router>
   )

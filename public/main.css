@@ -1,0 +1,109 @@
+body {
+  padding-top: 50px;
+  text-align: center;
+  background-color: purple;
+}
+
+/*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  width: 150px;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  float: right;
+  border-left: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: purple;
+}
+
+/*sign up/register form*/
+form {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login {
+  display: inline;
+  text-align: center;
+  color: black;
+}
+
+input {
+  width: 20%;
+  padding: 12px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.image {
+  /*display: flex;
+  position: relative;
+  left: 50%;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;*/
+}
+
+.teacher {
+  width: 80px;
+}
+
+h2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
